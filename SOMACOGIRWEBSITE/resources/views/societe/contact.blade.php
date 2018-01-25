@@ -1,36 +1,40 @@
 @extends('layouts.master')
+@section('title')
+SOMACOGIR-CONTACT
+@stop
 @section('extra')
-<div id="contact"> 
+<div id="contact">
   <!--<div class="item">
       <img src="src/images/contact.jpg" alt=""  class="img-responsive"/>
          <div class="inner-content row contact-text">
         			<div class="col-sm-6">
         				<h1>Contact Us</h1>
         				<p>We'd love to hear from you </p>
-        				
+
         			</div>
         		</div>
       </div>
     </div> -->
-    <section class="hero content color-1">
-    <img src="src/images/contact.jpg" alt=""  class="img-responsive"/>
+
+    <section class="hero content color-1" contact >
+    <img src="src/images/contact1.jpg" alt=""  class="img-responsive img-fluid "/>
         	<div class="container">
-        		<div class="inner-content row ">
-        			<div class="col-sm-6">
-        				<h1>Contactez nous</h1>
-        				<p class="contact-text">Nous aimerions recevoir de vos nouvelles</p>
-        				
+        		<div class="inner-content row  ">
+        			<div class="col-xs-12">
+        				<h1 class="text-center">Contactez nous</h1>
+        				<p class="contact-text text-center">Nous aimerions recevoir de vos nouvelles</p>
+
         			</div>
         		</div>
         	</div>
         </section>
-    
+
   <div class="container">
-    
-    
+
+
     <div class="row">
-      
-    
+
+
       <div class="col-xs-6 col-lg-4">
       <h3><p>Head Office</p></h3>
         <p>
@@ -60,13 +64,13 @@
       </div>
       </div>
 
-      
 
-      
-        
-      
 
-      
+
+
+
+
+
 
     </div>
 
@@ -81,11 +85,10 @@ src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJIUR_e5V
         </div>
       </div>
     </div>
-      
 
-  
+
+
 </div>
 </div>
 
 @endsection
-

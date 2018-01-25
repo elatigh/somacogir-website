@@ -13,7 +13,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                  <a class="navbar-brand" href="#">SOMACOGIR  <img src="images/logo.jpg" /> </a>
+                  <a class="navbar-brand" href="{{ url('/') }}">SOMACOGIR   </a>
               </div>
 
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -22,33 +22,23 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Catalogues<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#" class="ftrlinks">Electricité</a></li>
-                      <li><a href="#l" class="ftrlinks">Quincaillerie</a></li>
-                      <li><a href="#" class="ftrlinks">Outillage</a></li>
-                      <li><a href="#" class="ftrlinks">Huiles</a></li>
-                      <li><a href="#" class="ftrlinks">Pompes</a></li>
-                      <li><a href="#" class="ftrlinks">Aciers</a></li>
+                      <li><a href="{{ url('/electricite') }}" class="ftrlinks">Electricité</a></li>
+                      <li><a href="{{ url('/quincaillerie') }}" class="ftrlinks">Quincaillerie</a></li>
+                      <li><a href="{{ url('/groupes') }}" class="ftrlinks">Groupes</a></li>
+                      <li><a href="{{ url('/huiles') }}" class="ftrlinks">Huiles</a></li>
+                      
+                      <li><a href="{{ url('/sika') }}" class="ftrlinks">Adjuvants</a></li>
+                      <li><a href="{{ url('/aciers') }}" class="ftrlinks">Aciers</a></li>
                     </ul>
                </li>
 
-               <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">Something else here</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">Separated link</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">One more separated link</a></li>
-                    </ul>
-               </li>
+               
 
                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Société <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href=" # ">Contact</a></li>
-                      <li><a href="#">Qui sommes-nous</a></li>
+                      <li><a href=" {{url('/contact')}} ">Contact</a></li>
+                      <li><a href="{{url('/Quisommesnous')}}">Qui sommes-nous</a></li>
                       
                     </ul>
                </li>

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 title">
-                <h2> NOS CLIENTS: </br>  </h2>
+                <h2 class="text-center"> NOS CLIENTS</br>  </h2>
                 <p> DES SOLUTIONS PERSONNALISÉES POUR DES CLIENTS UNIQUES</p>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-2">

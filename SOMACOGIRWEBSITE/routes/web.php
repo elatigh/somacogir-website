@@ -16,6 +16,45 @@ Route::get('/', function () {
 });
 
 
+
+
+
+Route::get('/electricite', function () {
+    return view('catalogues.electricite');
+});
+
+
+Route::get('/huiles', function () {
+    return view('catalogues.huiles');
+});
+
+Route::get('/pompes', function () {
+    return view('catalogues.pompes');
+});
+
+Route::get('/aciers', function () {
+    return view('catalogues.aciers');
+});
+
+Route::get('/quincaillerie', function () {
+    return view('catalogues.quincaillerie');
+});
+
+Route::get('/groupes', function () {
+    return view('catalogues.groupes');
+});
+
+Route::get('/sika', function () {
+    return view('catalogues.sika');
+});
+
+
 Route::get('/contact', function () {
     return view('societe.contact');
 });
+
+Route::get('/Quisommesnous', function () {
+    return view('societe.Quisommesnous');
+});
+
+

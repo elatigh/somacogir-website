@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="src/images/image6.jpg" alt="" />
+                        <img src="src/images/sika1.jpg" alt="" />
                         <div class="slider-text wow fadeInUp">
                             <p>SIKA</p>
                             <span>LA SOMACOGIR est distributeur agrée de sika en Mauritanie .</span>
